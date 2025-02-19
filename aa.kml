@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Directions from Pokhara-Baglung Hwy, Pokhara 33700, Nepal to Main Trekking Rte to Gorepani - Poon Hill, Lumle 33400, Nepal</name>
+    <NetworkLink>
+      <name>Annapurna Base Camp Trekking Map</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=1esZ921aZ0nnLEd9Qj_knaRQepYgvwHxT&lid=yl5tCnPYnT0]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>

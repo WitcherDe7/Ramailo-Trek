@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /fyp/
+
+    # Redirect /fyp/detail.php?DestinationID=1 to /fyp/detail/1
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^detail/([^/]+)/?$ detail.php?DestinationID=$1 [QSA,L]
+</IfModule>
